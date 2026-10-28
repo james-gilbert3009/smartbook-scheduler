@@ -1,0 +1,34 @@
+test_api_failure_falls_back_without_crashing  ... ok
+test_model_cannot_book_invalid_slot  ... ok
+test_model_cannot_use_admin_or_unknown_tools  ... ok
+test_tool_loop_and_confirmation_gate  ... ok
+test_chat_invalid_and_malicious_input_is_safe  ... ok
+test_closed_day_in_chat  ... ok
+test_full_demo_scenario_book_duplicate_cancel_rebook  ... ok
+test_missing_api_key_uses_fallback_gracefully  ... ok
+test_no_declines_pending_action  ... ok
+test_reschedule_via_chat_requires_matching_contact  ... ok
+test_unrelated_message_discards_pending  ... ok
+test_01_list_services  ... ok
+test_02_availability_on_working_day  ... ok
+test_03_availability_on_closed_day  ... ok
+test_04_book_available_slot  ... ok
+test_05_reject_outside_business_hours  ... ok
+test_06_reject_past_booking  ... ok
+test_07_reject_conflicting_booking  ... ok
+test_08_service_with_different_duration  ... ok
+test_09_reschedule_successfully  ... ok
+test_10_reject_invalid_reschedule  ... ok
+test_11_cancel_appointment  ... ok
+test_12_cancelled_slot_becomes_available_again  ... ok
+test_13_invalid_inputs  ... ok
+test_14_database_trigger_blocks_overlap_even_without_python_checks  ... ok
+test_15_data_persists_across_connections  ... ok
+test_16_contact_is_the_verification_and_is_normalized  ... ok
+test_17_preview_changes_nothing  ... ok
+test_18_admin_listing_filters  ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.307s
+
+OK
